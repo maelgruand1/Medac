@@ -29,9 +29,9 @@ class User {
         int edad = pedirEdad(scanner);
         int resultado = verificarEdad(edad);
         if (resultado == 1) {
-            System.out.println("Eres mayor de edad.");
+            System.out.println( nombre + ", Eres mayor de edad.");
         } else {
-            System.out.println("Eres menor de edad.");
+            System.out.println(nombre +  ", Eres menor de edad.");
         }
     }
 }
