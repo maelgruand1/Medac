@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class App {
+public class pack {
     public static void main(String[] args) {
         User.main(args);
     }
