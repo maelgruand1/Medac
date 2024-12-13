@@ -20,7 +20,7 @@ class User {
         } else {
             return 0;
         }
-    }
+    } 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Introduzca su nombre: ");
