@@ -19,7 +19,7 @@ class User {
 
     // verificar la edad
     private static int verificarEdad(int age) {
-        if (age >= 18) {
+        if (age >= 20) {
             return 1;
         } else {
             return 0;
