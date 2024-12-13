@@ -27,6 +27,7 @@ class User {
         String nombre = pedirNombre(scanner, "");
         System.out.print("Introduzca su edad: ");
         int edad = pedirEdad(scanner);
+        System.out.println("hola");
         int resultado = verificarEdad(edad);
         if (resultado == 1) {
             System.out.println(nombre + ", Eres mayor de edad.");
